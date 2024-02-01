@@ -1,0 +1,138 @@
+*{
+    box-sizing:border-box;
+    display: block;
+}
+
+body{
+    background-image: url(./pics/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Width: 346px;
+    Height: 694px; */
+    /* Top: 94px;
+    Left: 121px; */
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    /* margin-top: 15px; */
+    /* place-content: center; */
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+
+    /* padding: 20px; */
+}
+
+form{
+    /* max-width: 400px; */
+    width: 42%;
+    height: 50%;
+    margin-top: 60px;
+    /* margin: 5px 10px 5px 5px; */
+    padding: 20px;
+    /* padding-bottom: 10%; */
+    border-radius: 8px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.content-container{
+    background-color:   rgba(240, 243, 208, 0.8);
+    align-items: center;
+    display: block;
+    margin-top: 15px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 40px 40px 40px 40px;
+    max-width: 889px;
+    /* width: 100%; */
+    height: 100%; 
+    text-align: left;
+     /* top: 70px;
+    left: 23px */
+}
+
+
+.register-container{
+    position: relative;
+    margin-top: 15px;
+ 
+}
+.register-container>img{
+    position: absolute;
+    bottom: 10px;
+    right: 120px;
+}
+
+.register-container>input{
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.pass-container{
+    position: relative;
+    margin-top: 15px;
+}
+.pass-container>img{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.pass-container>input{
+    outline: none;
+    padding: 15px 0 15px 30px;
+    width: 100%;
+}
+
+button{
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #6DA01E;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+body{
+    padding: 10px;
+}
+form{
+    width: 100%;
+}
+.register-container>img{
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+}
+}
+
+.pass-container>img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+button {
+    width: 100%;
+}
