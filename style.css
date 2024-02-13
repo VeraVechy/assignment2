@@ -71,8 +71,8 @@ input{
 }
 .register-container>img{
     position: absolute;
-    bottom: 23px;
-    right: 60px;
+    bottom: 30px;
+    right: 27px;
 }
 
 .register-container>input{
@@ -80,6 +80,8 @@ input{
     text-align: center;
     background-color: transparent;
     border-radius: 8px;
+    padding: 15px 0 15px 30px;
+    width: 100%;
 }
 
 .pass-container{
